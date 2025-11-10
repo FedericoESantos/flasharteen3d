@@ -179,7 +179,7 @@
         "id": 23,
         "title": "Deadpool y Wolverine",
         "description": "Llavero separado entre Deadpool y Wolverine",
-        "img": "/productos/",
+        "img": "/productos/23.webp",
         "price": 1400,
         "category": "Llaveros"
     },
@@ -187,7 +187,7 @@
         "id": 24,
         "title": "Jhony Bravo",
         "description": "Llavero de Jhony Bravo",
-        "img": "/productos/",
+        "img": "/productos/24.webp",
         "price": 1400,
         "category": "Llaveros"
     },
@@ -195,23 +195,23 @@
         "id": 25,
         "title": "Fornite",
         "description": "Llavero del logo de Fornite",
-        "img": "/productos/",
+        "img": "/productos/25.webp",
         "price": 1400,
         "category": "Llaveros"
     },
     {
         "id": 26,
         "title": "Spiderman",
-        "description": "Llavero separado entre Deadpool y Wolverine",
-        "img": "/productos/",
+        "description": "Llavero de Spiderman",
+        "img": "/productos/26.webp",
         "price": 1400,
         "category": "Llaveros"
     },
     {
         "id": 27,
-        "title": "Mortal Kombar",
+        "title": "Mortal Kombat",
         "description": "Llavero del logo de Mortal Kombat",
-        "img": "/productos/",
+        "img": "/productos/27.jfif",
         "price": 1400,
         "category": "Llaveros"
     },
@@ -219,7 +219,7 @@
         "id": 28,
         "title": "Stich",
         "description": "Llavero de Stich",
-        "img": "/productos/",
+        "img": "/productos/28.webp",
         "price": 1400,
         "category": "Llaveros"
     },
@@ -227,7 +227,7 @@
         "id": 29,
         "title": "Soporte para Celular",
         "description": "Llavero práctico convertible a soporte para celulares",
-        "img": "/productos/",
+        "img": "/productos/29.jfif",
         "price": 1400,
         "category": "Llaveros"
     },
