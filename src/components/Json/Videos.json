@@ -1,0 +1,4 @@
+[
+  { "id": 1, "category": "timelapse", "src": "video1.mp4" },
+  { "id": 2, "category": "impresiones", "src": "video2.mp4" }
+]

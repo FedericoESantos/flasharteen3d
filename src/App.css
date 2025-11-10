@@ -1,0 +1,593 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.color-fondo {
+  background-color: rgb(253, 232, 206);
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;     
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgb(207, 180, 140);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.header img {
+  width: 45px;
+}
+.header .titulo {
+  display: flex;
+}
+.header .logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.navbar ul li{
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+.navbar ul li a:hover {
+  color: rgb(247, 178, 4);
+}
+.navbar ul li a .carrito {
+  width: 30px;
+}
+.navbar ul li a .carrito:hover {
+  filter: drop-shadow(2px 4px 6px rgb(255, 255, 255));
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/*---------------------MENU DESPLEGABLE DESDE MAIN ------------------------ */
+/* Ícono */
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Menú oculto */
+.menu {
+  position: fixed;
+  top: 0;
+  right: -260px;
+  width: 250px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+/* Menú visible */
+.menu-open {
+  right: 0;
+}
+
+/* Links */
+.menu a {
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+}
+
+.menu a:hover {
+  background-color: #33333380;
+  color: #fff;
+}
+
+/*--------------------- HOME - ITEMLISTCONTAINER ------------------------ */
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+/*--------------------- ERROR ------------------------ */
+.error {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*--------------------- CARRUSEL ------------------------ */
+.carrusel {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(243, 239, 232, 0.616); /* opcional para que no se vea vacío detrás */
+}
+
+.carrusel .slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  object-fit: contain;  /* muestra la imagen completa sin recortarla */
+  object-position: center;
+
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carrusel .slide.active {
+  opacity: 1;
+}
+
+/*--------------------- INFO DE MAIN ------------------------ */
+
+.infomain {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/*--------------------- DESTACADOS - MAIN ------------------------ */
+.destacados {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.destacados .titulo {
+  width: 100%;
+  background-color: rgb(0, 0, 10);
+  color: antiquewhite;
+  text-align: center;
+  padding: 5px;
+}
+.destacados .card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px
+}
+.destacados .card-cont .card {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: auto;
+  justify-content: space-between; 
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.item-img {
+  width: 100%;
+  object-fit: contain; 
+  border-radius: 6px;
+}
+
+.destacados a img {
+  width: 45px;
+}
+.destacados a img:hover {
+  filter: drop-shadow(2px 4px 6px rgb(124, 120, 120));
+}
+
+@media (max-width: 600px) {
+  .destacados .card-cont {
+    justify-content: center;
+  }
+
+  .destacados .card-cont .card {
+    width: 45%;       
+    min-width: 140px; 
+  }
+}
+
+/*--------------------- EMPRESA - MAIN ------------------------ */
+.quienes-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(209, 207, 204);
+  padding-left: 10PX;
+}
+.quienes-main img {
+  width: 200px;
+  filter: drop-shadow(2px 4px 6px rgb(243, 241, 97));
+}
+.quienes-main .quienes-info {
+  text-align: center;
+  margin-left: 50px;
+  padding: 10PX;
+  border-style: groove;
+  box-shadow: 2px 2px 5px black;
+}
+
+@media (max-width: 600px) {
+  .quienes-main .quienes-info {
+    margin: 0%;
+  }
+}
+
+/*--------------------- FOOTER ------------------------ */
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #333;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+.footer .logo-footer img {
+  width: 80px;
+}
+.footer .enlaces {
+  display: flex;
+  flex-direction: column;
+}
+.footer .enlaces ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+.footer .enlaces ul li{
+  list-style: none;
+}
+.footer .enlaces ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .enlaces ul li a:hover {
+  color: rgb(247, 178, 4);
+}
+.footer .enlaces .contacto-footer {
+  margin: 10px;
+}
+.footer .contacto-footer h3 {
+  color: #ff0000;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;    
+    text-align: center;        
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer .enlaces ul {
+    display: flex;
+    flex-direction: column;    
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer .contacto-footer {
+    margin: 0;                 
+  }
+}
+
+/*--------------------- PRODUCTOS ------------------------ */
+.itemlistcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 146, 91, 0.185);
+  padding: 15px;
+}
+
+.itemlistcontainer .volver img {
+  width: 45px;
+}
+
+.itemlistcontainer .volver img:hover {
+  filter: drop-shadow(2px 2px 8px black);
+}
+
+.itemlistcontainer .title-prod {
+  text-align: center;
+  background-color: #333;
+  width: 100%;
+  color: rgb(216, 212, 201);
+  text-shadow: 2px 2px 6px black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.itemlistcontainer .card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.itemlistcontainer .card-cont .item {
+  border: 2px groove #c96f32;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: #fff;
+  width: 200px;
+  min-height: 260px;
+  transition: 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.itemlistcontainer .card-cont .item:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  transform: translateY(-3px);
+}
+
+.itemlistcontainer .card-cont .item .item-desc {
+  padding: 10px;
+}
+
+.item-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .itemlistcontainer .card-cont .item {
+    width: 45%;
+    min-width: 150px;
+  }
+}
+
+/*--------------------- CATEGORIA DE PRODUCTOS ------------------------ */
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.categories .title {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-shadow: 2px 2px 8px black;
+}
+
+.categories-list {
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.categories-list a {
+  display: flex;  
+  width: 150px;
+  height: 80px;
+  color: #6063e4;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px black;
+  background: #eee; 
+  transition: background 0.8s ease, transform 0.2s ease;
+}
+
+.categories-list a:hover {
+  background: #dce990;
+  color: #ff0000;        
+  transform: translateY(-3px); 
+}
+
+.category-card {
+  border-style:groove;
+  padding: 10px;
+}
+
+/*--------------------- GALERIA ------------------------ */
+/* ===== CATEGORÍAS MULTIMEDIA ===== */
+.categories-mult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.categories-mult .title,
+.galeria-list-mult .title {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+/* Lista horizontal: Imágenes - Videos */
+.categories-list-mult {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Tarjetas de categoría */
+.category-card-mult {
+  padding: 12px 20px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  background: #eee;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.category-card-mult:hover {
+  background: #ddd;
+}
+
+/* ===== GALERÍA DE IMÁGENES / VIDEOS ===== */
+.galeria-list-mult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0 40px 0;
+}
+
+/* Grid de fotos/videos */
+.galeria-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Items del grid */
+.galeria-item {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* ===== BOTÓN VOLVER ===== */
+.volver {
+  margin-top: 20px;
+}
+
+.volver img {
+  width: 40px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.volver img:hover {
+  transform: scale(1.1);
+}
+
+/*--------------------- CONTACTO / EMPRESA / PROMOCIONES ------------------------ */
+.contacto, .empresa, .promociones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.contacto .title, .empresa .title, .promociones .title {
+  text-align: center;
+  background-color: #222;
+  width: 100%;
+  padding: 10px;
+  color: #ddd;
+}
+.contacto-info, .empresa .empresa-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: double;
+  width: 100%;
+  padding: 15px;
+}
+.contacto-info h2, span {
+  text-align: center;
+}
+.mail {
+  padding: 5px;
+  border-style: groove;
+  border-radius: 5px;
+}
+.whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.whatsapp img{
+  width: 45px;
+  display: flex;
+}
+.whatsapp a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.whatsapp a:hover {
+  color: rgb(46, 124, 15);
+}
+
+.empresa .empresa-info {
+  margin: 40px;
+}

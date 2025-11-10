@@ -1,0 +1,594 @@
+[
+    {
+        "id": 1,
+        "title": "Media Luna",
+        "description": "Media luna con porta vela",
+        "img": "/productos/1.webp",
+        "price": 1500,
+        "category": "Porta Velas"
+    },
+    {
+        "id": 2,
+        "title": "Caja de Herramientas",
+        "description": "Caja de Herramientas retractil",
+        "img": "/productos/2.webp",
+        "price": 1600,
+        "category": "Utilidades"
+    },
+    {
+        "id": 3,
+        "title": "Soporte para celulares",
+        "description": "Agarradera para celulares retractil",
+        "img": "/productos/",
+        "price": 1800,
+        "category": "Utilidades"
+    },
+    {
+        "id": 4,
+        "title": "Cierra Bolsas",
+        "description": "Cierra bolsas con pinzas",
+        "img": "/productos/",
+        "price": 1600,
+        "category": "Utilidades"
+    },
+    {
+        "id": 5,
+        "title": "Limpiador de Mesa",
+        "description": "Limpiador de mesa y recoge migas",
+        "img": "/productos/",
+        "price": 1800,
+        "category": "Utilidades"
+    },
+    {
+        "id": 6,
+        "title": "Estudio de Fotos",
+        "description": "Práctico estudio para fotos de productos",
+        "img": "/productos/",
+        "price": 1000,
+        "category": "Utilidades"
+    },
+    {
+        "id": 7,
+        "title": "TATETI",
+        "description": "Juego TATETI de bolsillo, chiquito y práctico",
+        "img": "/productos/",
+        "price": 800,
+        "category": "Juegos"
+    },
+    {
+        "id": 8,
+        "title": "Alcancia",
+        "description": "Alcancía práctica para ahorros",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Juegos"
+    },
+    {
+        "id": 9,
+        "title": "Helicoptero de Mano",
+        "description": "Helicoptero de Mano a cuerda",
+        "img": "/productos/",
+        "price": 1000,
+        "category": "Juegos"
+    },
+    {
+        "id": 10,
+        "title": "Pistola tira Balas",
+        "description": "Pistola tira balas de plastico",
+        "img": "/productos/",
+        "price": 800,
+        "category": "Juegos"
+    },
+    {
+        "id": 11,
+        "title": "Clásico",
+        "description": "Clásico Porta Auriculares",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Porta Auriculares"
+    },
+    {
+        "id": 12,
+        "title": "Pato",
+        "description": "Porta Auriculares cabeza de pato para ajustar a soporte paralelo",
+        "img": "/productos/",
+        "price": 800,
+        "category": "Porta Auriculares"
+    },
+    {
+        "id": 13,
+        "title": "Venom",
+        "description": "Porta Auriculares con la cabeza de Venom",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Porta Auriculares"
+    },
+    {
+        "id": 14,
+        "title": "Moderno",
+        "description": "Cesto de oficina Moderno",
+        "img": "/productos/",
+        "price": 1000,
+        "category": "Cestos"
+    },
+    {
+        "id": 15,
+        "title": "Clásico",
+        "description": "Cesto de oficina Clásico",
+        "img": "/productos/",
+        "price": 800,
+        "category": "Cestos"
+    },
+    {
+        "id": 16,
+        "title": "Cesto con encastre",
+        "description": "Cesto de oficina con encastre",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Cestos"
+    },
+    {
+        "id": 17,
+        "title": "stich",
+        "description": "Cesto infantil de Stich con cabeza movible",
+        "img": "/productos/",
+        "price": 800,
+        "category": "Cestos"
+    },
+    {
+        "id": 18,
+        "title": "Dino",
+        "description": "Cesto infantil de Dinosaurio con cabeza movible",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Cestos"
+    },
+    {
+        "id": 19,
+        "title": "Estrella de la Muerta",
+        "description": "Lámparas circular de la Estrella de la Muerte",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Lámparas"
+    },
+    {
+        "id": 20,
+        "title": "Avenger",
+        "description": "Lapicero con la inicial de A de Avenger",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Lapiceros"
+    },
+    {
+        "id": 21,
+        "title": "Deadpool",
+        "description": "Lapicero con la cabeza de Deadpool",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Lapiceros"
+    },
+    {
+        "id": 22,
+        "title": "Mario",
+        "description": "Lapicero con Mario Bross descansando",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Lapiceros"
+    },
+    {
+        "id": 23,
+        "title": "Deadpool y Wolverine",
+        "description": "Llavero separado entre Deadpool y Wolverine",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 24,
+        "title": "Jhony Bravo",
+        "description": "Llavero de Jhony Bravo",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 25,
+        "title": "Fornite",
+        "description": "Llavero del logo de Fornite",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 26,
+        "title": "Spiderman",
+        "description": "Llavero separado entre Deadpool y Wolverine",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 27,
+        "title": "Mortal Kombar",
+        "description": "Llavero del logo de Mortal Kombat",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 28,
+        "title": "Stich",
+        "description": "Llavero de Stich",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 29,
+        "title": "Soporte para Celular",
+        "description": "Llavero práctico convertible a soporte para celulares",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Llaveros"
+    },
+    {
+        "id": 30,
+        "title": "Posa Vaso Stich",
+        "description": "Posa Vaso circulares con la cara de Stich",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Utilidades"
+    },
+    {
+        "id": 31,
+        "title": "Stich",
+        "description": "Vincha con las orejas de Stich",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Utilidades"
+    },
+    {
+        "id": 32,
+        "title": "Back to the Future",
+        "description": "Mates de Volver al Futuro",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 33,
+        "title": "Stich",
+        "description": "Mates de Stich",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 34,
+        "title": "Thanos",
+        "description": "Mates con la cabeza de Thanos",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 35,
+        "title": "Groot",
+        "description": "Mates de Groot",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 36,
+        "title": "Harry Potter",
+        "description": "Mates de Harry Potter",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 37,
+        "title": "IronMan",
+        "description": "Mates de Ironman",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 38,
+        "title": "Jack",
+        "description": "Mates de Jack",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 39,
+        "title": "Mafalda",
+        "description": "Mates de Mafalda",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 40,
+        "title": "Mates de Messi",
+        "description": "Mates de Messi",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 41,
+        "title": "Zoombie",
+        "description": "Taza de Zoombie",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Mates"
+    },
+    {
+        "id": 42,
+        "title": "Deadpool",
+        "description": "Busto de Deadpool",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 43,
+        "title": "Goofy",
+        "description": "Muñeco de Goofy",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 44,
+        "title": "Greemblin",
+        "description": "Muñeco de Greemblin",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 45,
+        "title": "Hulk",
+        "description": "Muñeco del Íncreible Hulk",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 46,
+        "title": "Ironman",
+        "description": "Busto de Ironman",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 47,
+        "title": "Jason",
+        "description": "Muñeco de Jason",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 48,
+        "title": "Jhony Bravo",
+        "description": "Muñeco de Jhony Bravo",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 49,
+        "title": "La Sirenita",
+        "description": "Muñeco de La Sirenita",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 50,
+        "title": "Mickey",
+        "description": "Muñeco de Mickey",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 51,
+        "title": "Nick Fury",
+        "description": "Busto de Nick Fury",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 52,
+        "title": "Rafael - Tortuga Ninja",
+        "description": "Muñeco de Rafael de las Tortugas Ninjas",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 53,
+        "title": "Groot y Rockie",
+        "description": "Busto de Groot y Rockie",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 54,
+        "title": "Spiderman Funko",
+        "description": "Muñeco Funko de Spiderman",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 55,
+        "title": "Spiderman",
+        "description": "Busto de Spiderman",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 56,
+        "title": "Thanos",
+        "description": "Muñeco de Thanos",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 57,
+        "title": "The Mask",
+        "description": "Muñeco de La Máscara",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 58,
+        "title": "Venom",
+        "description": "Muñeco de Venom",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 59,
+        "title": "Mario & Luigi",
+        "description": "Muñecos de Mario & Luigi",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 60,
+        "title": "Alf",
+        "description": "Muñeco de Alf",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 61,
+        "title": "Baby Yoda",
+        "description": "Muñeco de Baby Yoda",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 62,
+        "title": "Chimuelo",
+        "description": "Muñeco de Chimuelo",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 63,
+        "title": "Garfield",
+        "description": "Muñeco de Garfield",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 64,
+        "title": "Stich",
+        "description": "Muñeco de Stich",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 65,
+        "title": "Groot Funko",
+        "description": "Muñeco Funko de Groot",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 66,
+        "title": "Hulk Busto",
+        "description": "Busto del Íncreible Hulk",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 67,
+        "title": "Indiana Jones",
+        "description": "Diorama de Indiana Jones",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 68,
+        "title": "Ironman - Diorama",
+        "description": "Diorama de IronMan",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 69,
+        "title": "Venom",
+        "description": "Busto de Venom",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Muñecos"
+    },
+    {
+        "id": 70,
+        "title": "Mensula Arbol",
+        "description": "Mensula para repisas con decoración de árbol",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Repisas"
+    },
+    {
+        "id": 71,
+        "title": "Organizador con estantes",
+        "description": "Organizador con estantes para la oficina",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Repisas"
+    },
+    {
+        "id": 72,
+        "title": "Estantes Dobles",
+        "description": "Estantes Dobles armables para la oficina",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Repisas"
+    },
+    {
+        "id": 73,
+        "title": "Mensula Ángel",
+        "description": "Mennsula para repisa con decorativo en forma de Ángel",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Repisas"
+    },
+    {
+        "id": 74,
+        "title": "Repisa con Mensula",
+        "description": "Respisa de 3 soportes con mensulas ",
+        "img": "/productos/",
+        "price": 1400,
+        "category": "Repisas"
+    }
+]
