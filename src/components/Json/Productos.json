@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Soporte para celulares",
         "description": "Agarradera para celulares retractil",
-        "img": "/productos/",
+        "img": "/productos/3.jpg",
         "price": 1800,
         "category": "Utilidades"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Cierra Bolsas",
         "description": "Cierra bolsas con pinzas",
-        "img": "/productos/",
+        "img": "/productos/4.jpg",
         "price": 1600,
         "category": "Utilidades"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Limpiador de Mesa",
         "description": "Limpiador de mesa y recoge migas",
-        "img": "/productos/",
+        "img": "/productos/5.webp",
         "price": 1800,
         "category": "Utilidades"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Estudio de Fotos",
         "description": "Práctico estudio para fotos de productos",
-        "img": "/productos/",
+        "img": "/productos/6.webp",
         "price": 1000,
         "category": "Utilidades"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "title": "TATETI",
         "description": "Juego TATETI de bolsillo, chiquito y práctico",
-        "img": "/productos/",
+        "img": "/productos/7.webp",
         "price": 800,
         "category": "Juegos"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "title": "Alcancia",
         "description": "Alcancía práctica para ahorros",
-        "img": "/productos/",
+        "img": "/productos/8.jpg",
         "price": 1400,
         "category": "Juegos"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "title": "Pistola tira Balas",
         "description": "Pistola tira balas de plastico",
-        "img": "/productos/",
+        "img": "/productos/10.jpg",
         "price": 800,
         "category": "Juegos"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "title": "Clásico",
         "description": "Clásico Porta Auriculares",
-        "img": "/productos/",
+        "img": "/productos/11.png",
         "price": 1400,
         "category": "Porta Auriculares"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "title": "Pato",
         "description": "Porta Auriculares cabeza de pato para ajustar a soporte paralelo",
-        "img": "/productos/",
+        "img": "/productos/12.jpg",
         "price": 800,
         "category": "Porta Auriculares"
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "title": "Moderno",
         "description": "Cesto de oficina Moderno",
-        "img": "/productos/",
+        "img": "/productos/14.webp",
         "price": 1000,
         "category": "Cestos"
     },
@@ -115,7 +115,7 @@
         "id": 15,
         "title": "Clásico",
         "description": "Cesto de oficina Clásico",
-        "img": "/productos/",
+        "img": "/productos/15.webp",
         "price": 800,
         "category": "Cestos"
     },
