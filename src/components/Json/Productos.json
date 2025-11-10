@@ -67,7 +67,7 @@
         "id": 9,
         "title": "Helicoptero de Mano",
         "description": "Helicoptero de Mano a cuerda",
-        "img": "/productos/",
+        "img": "/productos/9.jfif",
         "price": 1000,
         "category": "Juegos"
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "title": "Venom",
         "description": "Porta Auriculares con la cabeza de Venom",
-        "img": "/productos/",
+        "img": "/productos/13.webp",
         "price": 1400,
         "category": "Porta Auriculares"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "title": "stich",
         "description": "Cesto infantil de Stich con cabeza movible",
-        "img": "/productos/",
+        "img": "/productos/17.jfif",
         "price": 800,
         "category": "Cestos"
     },
@@ -235,7 +235,7 @@
         "id": 30,
         "title": "Posa Vaso Stich",
         "description": "Posa Vaso circulares con la cara de Stich",
-        "img": "/productos/",
+        "img": "/productos/30.webp",
         "price": 1400,
         "category": "Utilidades"
     },
@@ -243,7 +243,7 @@
         "id": 31,
         "title": "Stich",
         "description": "Vincha con las orejas de Stich",
-        "img": "/productos/",
+        "img": "/productos/31.jfif",
         "price": 1400,
         "category": "Utilidades"
     },
