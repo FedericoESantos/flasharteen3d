@@ -251,7 +251,7 @@
         "id": 32,
         "title": "Back to the Future",
         "description": "Mates de Volver al Futuro",
-        "img": "/productos/",
+        "img": "/productos/32.jpg",
         "price": 1400,
         "category": "Mates"
     },
@@ -259,7 +259,7 @@
         "id": 33,
         "title": "Stich",
         "description": "Mates de Stich",
-        "img": "/productos/",
+        "img": "/productos/33.jpg",
         "price": 1400,
         "category": "Mates"
     },
@@ -267,7 +267,7 @@
         "id": 34,
         "title": "Thanos",
         "description": "Mates con la cabeza de Thanos",
-        "img": "/productos/",
+        "img": "/productos/34.jfif",
         "price": 1400,
         "category": "Mates"
     },
@@ -275,7 +275,7 @@
         "id": 35,
         "title": "Groot",
         "description": "Mates de Groot",
-        "img": "/productos/",
+        "img": "/productos/35.webp",
         "price": 1400,
         "category": "Mates"
     },
@@ -283,7 +283,7 @@
         "id": 36,
         "title": "Harry Potter",
         "description": "Mates de Harry Potter",
-        "img": "/productos/",
+        "img": "/productos/36.webp",
         "price": 1400,
         "category": "Mates"
     },
@@ -291,7 +291,7 @@
         "id": 37,
         "title": "IronMan",
         "description": "Mates de Ironman",
-        "img": "/productos/",
+        "img": "/productos/37.webp",
         "price": 1400,
         "category": "Mates"
     },
@@ -299,7 +299,7 @@
         "id": 38,
         "title": "Jack",
         "description": "Mates de Jack",
-        "img": "/productos/",
+        "img": "/productos/38.webp",
         "price": 1400,
         "category": "Mates"
     },
@@ -307,7 +307,7 @@
         "id": 39,
         "title": "Mafalda",
         "description": "Mates de Mafalda",
-        "img": "/productos/",
+        "img": "/productos/39.webp",
         "price": 1400,
         "category": "Mates"
     },
@@ -315,7 +315,7 @@
         "id": 40,
         "title": "Mates de Messi",
         "description": "Mates de Messi",
-        "img": "/productos/",
+        "img": "/productos/40.jfif",
         "price": 1400,
         "category": "Mates"
     },
@@ -323,7 +323,7 @@
         "id": 41,
         "title": "Zoombie",
         "description": "Taza de Zoombie",
-        "img": "/productos/",
+        "img": "/productos/41.webp",
         "price": 1400,
         "category": "Mates"
     },
@@ -555,7 +555,7 @@
         "id": 70,
         "title": "Mensula Arbol",
         "description": "Mensula para repisas con decoración de árbol",
-        "img": "/productos/",
+        "img": "/productos/70.jpg",
         "price": 1400,
         "category": "Repisas"
     },
@@ -563,7 +563,7 @@
         "id": 71,
         "title": "Organizador con estantes",
         "description": "Organizador con estantes para la oficina",
-        "img": "/productos/",
+        "img": "/productos/71.webp",
         "price": 1400,
         "category": "Repisas"
     },
@@ -571,7 +571,7 @@
         "id": 72,
         "title": "Estantes Dobles",
         "description": "Estantes Dobles armables para la oficina",
-        "img": "/productos/",
+        "img": "/productos/72.jpg",
         "price": 1400,
         "category": "Repisas"
     },
@@ -579,7 +579,7 @@
         "id": 73,
         "title": "Mensula Ángel",
         "description": "Mennsula para repisa con decorativo en forma de Ángel",
-        "img": "/productos/",
+        "img": "/productos/73.jpg",
         "price": 1400,
         "category": "Repisas"
     },
@@ -587,7 +587,7 @@
         "id": 74,
         "title": "Repisa con Mensula",
         "description": "Respisa de 3 soportes con mensulas ",
-        "img": "/productos/",
+        "img": "/productos/74.jpg",
         "price": 1400,
         "category": "Repisas"
     }
