@@ -147,7 +147,7 @@
         "id": 19,
         "title": "Estrella de la Muerta",
         "description": "Lámparas circular de la Estrella de la Muerte",
-        "img": "/productos/",
+        "img": "/productos/19.jpg",
         "price": 1400,
         "category": "Lámparas"
     },
@@ -155,7 +155,7 @@
         "id": 20,
         "title": "Avenger",
         "description": "Lapicero con la inicial de A de Avenger",
-        "img": "/productos/",
+        "img": "/productos/20.webp",
         "price": 1400,
         "category": "Lapiceros"
     },
@@ -163,7 +163,7 @@
         "id": 21,
         "title": "Deadpool",
         "description": "Lapicero con la cabeza de Deadpool",
-        "img": "/productos/",
+        "img": "/productos/21.jpg",
         "price": 1400,
         "category": "Lapiceros"
     },
@@ -171,7 +171,7 @@
         "id": 22,
         "title": "Mario",
         "description": "Lapicero con Mario Bross descansando",
-        "img": "/productos/",
+        "img": "/productos/22.jfif",
         "price": 1400,
         "category": "Lapiceros"
     },
