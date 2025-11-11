@@ -16,10 +16,7 @@ import MediosPago from './components/MediosPago/MediosPago'
 import Home from './components/Home/Home'
 import CategoryMultimedia from './components/CategoryMultimedia/CategoryMultimedia'
 import Imagenes from './components/Imagenes/Imagenes'
-import Videos from './components/Videos/Videos'
-import GaleriaImagenes from './components/Imagenes/GaleriaImagenes'
-import GaleriaVideos from './components/Videos/GaleriaVideos'
-
+import Video from './components/Videos/Videos'
 
 function App() {
 
@@ -50,10 +47,9 @@ function App() {
           <Route path='/galeria' element={ <CategoryMultimedia /> } />
           {/* IMAGENES */}
           <Route path="/galeria/imagenes" element={<Imagenes />} />
-          <Route path="/galeria/imagenes/:categoryId" element={<GaleriaImagenes />  } />
+
           {/* VIDEOS */}
-          <Route path="/galeria/videos" element={<Videos />} />
-          <Route path="/galeria/videos/:categoryId" element={<GaleriaVideos />} />
+          <Route path="/galeria/videos" element={<Video />} />
 
           <Route path='/empresa' element={ <Empresa /> } />
           <Route path='/promociones' element={ <Promociones /> } />

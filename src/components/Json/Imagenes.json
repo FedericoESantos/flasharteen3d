@@ -1,4 +1,60 @@
 [
-  { "id": 1, "category": "modelos", "src": "img1.jpg" },
-  { "id": 2, "category": "mascaras", "src": "img2.jpg" }
+  { 
+    "id": 1, 
+    "category": "modelos", 
+    "src": "/galeria/imagenes/1.jfif" 
+  }
+  ,
+  { 
+    "id": 2, 
+    "category": "mascaras", 
+    "src": "/galeria/imagenes/2.jfif" 
+  }
+  ,
+  { 
+    "id": 3, 
+    "category": "modelos", 
+    "src": "/galeria/imagenes/3.jfif" 
+  }
+  ,
+  { 
+    "id": 4, 
+    "category": "mascaras", 
+    "src": "/galeria/imagenes/4.jfif" 
+  }
+  ,
+  { 
+    "id": 5, 
+    "category": "modelos", 
+    "src": "/galeria/imagenes/5.jfif" 
+  }
+  ,
+  { 
+    "id": 6, 
+    "category": "mascaras", 
+    "src": "/galeria/imagenes/6.jfif" 
+  },
+  { 
+    "id": 7, 
+    "category": "modelos", 
+    "src": "/galeria/imagenes/7.jfif" 
+  }
+  ,
+  { 
+    "id": 8, 
+    "category": "mascaras", 
+    "src": "/galeria/imagenes/8.jfif" 
+  }
+  ,
+  { 
+    "id": 9, 
+    "category": "modelos", 
+    "src": "/galeria/imagenes/9.jfif" 
+  }
+  ,
+  { 
+    "id": 10, 
+    "category": "mascaras", 
+    "src": "/galeria/imagenes/10.jfif" 
+  }
 ]

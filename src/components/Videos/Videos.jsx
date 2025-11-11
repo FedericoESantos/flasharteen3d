@@ -1,29 +1,29 @@
-import { Link } from "react-router-dom";
 import Videos from "../Json/Videos.json";
-import Volver from '../../assets/iconos/volver.png'
+import { Link } from "react-router-dom";
+import Volver from '../../assets/iconos/volver.png';
 
-const CategoriasVideos = () => {
-  const categorias = [...new Set(Videos.map(vid => vid.category))];
-
+const Video = () => {
   return (
-    <div className="categories-mult">
-      <h1 className="title">Categorías de Videos</h1>
+    <div className="galeria-list-mult">
+      <h1 className="title">VIDEOS DE NUESTRAS CREACIONES</h1>
 
-      <div className="categories-list-mult">
-        {categorias.map(cat => (
-          <Link
-            key={cat}
-            to={`/galeria/videos/${cat}`}
-            className="category-card-mult"
-          >
-            {cat}
-          </Link>
+      <div className="galeria-grid">
+        {Videos.map(item => (
+          <video
+            key={item.id}
+            src={item.src}
+            alt={item.title}
+            className="galeria-item"
+            controls
+          />
         ))}
       </div>
 
-      <Link to='/galeria/' className="volver"> <img src={Volver} alt="volver" /></Link>
+      <Link to='/galeria' className="volver">
+        <img src={Volver} alt="volver" />
+      </Link>
     </div>
   );
 };
 
-export default CategoriasVideos;
+export default Video;

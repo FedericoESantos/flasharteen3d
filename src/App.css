@@ -533,9 +533,12 @@
 }
 
 /* ===== GALERÍA DE IMÁGENES / VIDEOS ===== */
+
 .galeria-list-mult {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   align-items: center;
   gap: 20px;
   padding: 20px 0 40px 0;
@@ -548,6 +551,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+
 }
 
 /* Items del grid */
@@ -555,6 +559,7 @@
   width: 220px;
   height: auto;
   border-radius: 8px;
+  border-style: groove;
   object-fit: cover;
 }
 
@@ -629,4 +634,49 @@
 
 .empresa .empresa-info {
   margin: 40px;
+}
+
+/*--------------------- MEDIOS DE PAGO ------------------------ */
+
+.mediosPago {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.mediosPago .title {
+  width: 100%;
+  background-color: #222;
+  color: #dddddd;
+}
+.mediosPago .info {
+  padding: 15px;
+}
+.mediosPago .info .medios {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.mediosPago .info .medios .prex, .mercadoPago, .bcoProvincia {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-style: groove;
+  border-radius: 30px;
+  background-color: #222;
+}
+.mediosPago .info .medios .prex img, .mercadoPago img, .bcoProvincia img {
+  width: 120px;
+}
+.mediosPago .info .medios .titulo-pago {
+  color: #dddddd;
 }
