@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "subtitulo";
+  src: url("/fonts/Caveat-Bold.ttf");
+}
+
 .color-fondo {
   background-color: rgb(253, 232, 206);
   min-height: 100vh; 
@@ -74,6 +79,11 @@
 .info-main {
   display: flex;
   padding: 20px;
+}
+
+.logo .logo-titulo p {
+  font-family: 'subtitulo';
+  font-size: 23px;
 }
 
 /*---------------------MENU DESPLEGABLE DESDE MAIN ------------------------ */
