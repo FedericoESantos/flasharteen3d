@@ -5,7 +5,7 @@ const InfoMain = () => {
     <div className='infomain'>
       <span>
         Realizamos trabajos de impresión 3D de todo tipo: desde Juegos y juguetes, muñecos y máscaras, hasta herramientas funcionales. <br />
-        <h2>También hacemos trabajos personalizados a medida <strong>(consultar). </strong> </h2>
+        <h3>También hacemos trabajos personalizados a medida <strong>(consultar). </strong> </h3>
         Además, podemos digitalizar una foto y convertirla en un busto decorativo.
       </span>
     </div>
