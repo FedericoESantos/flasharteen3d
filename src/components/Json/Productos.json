@@ -331,7 +331,7 @@
         "id": 42,
         "title": "Deadpool",
         "description": "Busto de Deadpool",
-        "img": "/productos/",
+        "img": "/productos/42.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -339,7 +339,7 @@
         "id": 43,
         "title": "Goofy",
         "description": "Muñeco de Goofy",
-        "img": "/productos/",
+        "img": "/productos/43.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -347,7 +347,7 @@
         "id": 44,
         "title": "Greemblin",
         "description": "Muñeco de Greemblin",
-        "img": "/productos/",
+        "img": "/productos/44.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -355,7 +355,7 @@
         "id": 45,
         "title": "Hulk",
         "description": "Muñeco del Íncreible Hulk",
-        "img": "/productos/",
+        "img": "/productos/45.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -363,7 +363,7 @@
         "id": 46,
         "title": "Ironman",
         "description": "Busto de Ironman",
-        "img": "/productos/",
+        "img": "/productos/46.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -371,7 +371,7 @@
         "id": 47,
         "title": "Jason",
         "description": "Muñeco de Jason",
-        "img": "/productos/",
+        "img": "/productos/47.jfif",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -379,7 +379,7 @@
         "id": 48,
         "title": "Jhony Bravo",
         "description": "Muñeco de Jhony Bravo",
-        "img": "/productos/",
+        "img": "/productos/48.png",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -387,7 +387,7 @@
         "id": 49,
         "title": "La Sirenita",
         "description": "Muñeco de La Sirenita",
-        "img": "/productos/",
+        "img": "/productos/49.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -395,7 +395,7 @@
         "id": 50,
         "title": "Mickey",
         "description": "Muñeco de Mickey",
-        "img": "/productos/",
+        "img": "/productos/50.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -403,7 +403,7 @@
         "id": 51,
         "title": "Nick Fury",
         "description": "Busto de Nick Fury",
-        "img": "/productos/",
+        "img": "/productos/51.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -411,7 +411,7 @@
         "id": 52,
         "title": "Rafael - Tortuga Ninja",
         "description": "Muñeco de Rafael de las Tortugas Ninjas",
-        "img": "/productos/",
+        "img": "/productos/52.png",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -419,7 +419,7 @@
         "id": 53,
         "title": "Groot y Rockie",
         "description": "Busto de Groot y Rockie",
-        "img": "/productos/",
+        "img": "/productos/53.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -427,7 +427,7 @@
         "id": 54,
         "title": "Spiderman Funko",
         "description": "Muñeco Funko de Spiderman",
-        "img": "/productos/",
+        "img": "/productos/54.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -435,7 +435,7 @@
         "id": 55,
         "title": "Spiderman",
         "description": "Busto de Spiderman",
-        "img": "/productos/",
+        "img": "/productos/55.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -443,7 +443,7 @@
         "id": 56,
         "title": "Thanos",
         "description": "Muñeco de Thanos",
-        "img": "/productos/",
+        "img": "/productos/56.jpeg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -451,7 +451,7 @@
         "id": 57,
         "title": "The Mask",
         "description": "Muñeco de La Máscara",
-        "img": "/productos/",
+        "img": "/productos/57.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -459,7 +459,7 @@
         "id": 58,
         "title": "Venom",
         "description": "Muñeco de Venom",
-        "img": "/productos/",
+        "img": "/productos/58.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -467,7 +467,7 @@
         "id": 59,
         "title": "Mario & Luigi",
         "description": "Muñecos de Mario & Luigi",
-        "img": "/productos/",
+        "img": "/productos/59.png",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -475,7 +475,7 @@
         "id": 60,
         "title": "Alf",
         "description": "Muñeco de Alf",
-        "img": "/productos/",
+        "img": "/productos/60.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -483,7 +483,7 @@
         "id": 61,
         "title": "Baby Yoda",
         "description": "Muñeco de Baby Yoda",
-        "img": "/productos/",
+        "img": "/productos/61.png",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -491,7 +491,7 @@
         "id": 62,
         "title": "Chimuelo",
         "description": "Muñeco de Chimuelo",
-        "img": "/productos/",
+        "img": "/productos/61.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -499,7 +499,7 @@
         "id": 63,
         "title": "Garfield",
         "description": "Muñeco de Garfield",
-        "img": "/productos/",
+        "img": "/productos/62.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -507,7 +507,7 @@
         "id": 64,
         "title": "Stich",
         "description": "Muñeco de Stich",
-        "img": "/productos/",
+        "img": "/productos/63.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -515,7 +515,7 @@
         "id": 65,
         "title": "Groot Funko",
         "description": "Muñeco Funko de Groot",
-        "img": "/productos/",
+        "img": "/productos/64.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -523,7 +523,7 @@
         "id": 66,
         "title": "Hulk Busto",
         "description": "Busto del Íncreible Hulk",
-        "img": "/productos/",
+        "img": "/productos/65.jpg",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -531,7 +531,7 @@
         "id": 67,
         "title": "Indiana Jones",
         "description": "Diorama de Indiana Jones",
-        "img": "/productos/",
+        "img": "/productos/66.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -539,7 +539,7 @@
         "id": 68,
         "title": "Ironman - Diorama",
         "description": "Diorama de IronMan",
-        "img": "/productos/",
+        "img": "/productos/67.webp",
         "price": 1400,
         "category": "Muñecos"
     },
@@ -547,7 +547,7 @@
         "id": 69,
         "title": "Venom",
         "description": "Busto de Venom",
-        "img": "/productos/",
+        "img": "/productos/68.webp",
         "price": 1400,
         "category": "Muñecos"
     },

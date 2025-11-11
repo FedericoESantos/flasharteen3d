@@ -70,6 +70,11 @@
   gap: 5px;
 }
 
+.info-main {
+  display: flex;
+  padding: 20px;
+}
+
 /*---------------------MENU DESPLEGABLE DESDE MAIN ------------------------ */
 /* Ícono */
 .menu-icon {
@@ -123,6 +128,7 @@
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
+  padding: 10px;
 }
 
 /*--------------------- ERROR ------------------------ */

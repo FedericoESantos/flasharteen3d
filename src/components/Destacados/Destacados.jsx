@@ -52,10 +52,6 @@ const Destacados = () => {
             
         </div>
 
-        <a href="">
-            <img src={mas} alt="logo-mas" />
-        </a>
-
     </div>
   )
 }
