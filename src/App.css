@@ -27,13 +27,14 @@
   padding: 15px;
 }
 .header img {
-  width: 45px;
+  width: 250px;
 }
 .header .titulo {
   display: flex;
 }
 .header .logo {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: start;
 }
@@ -274,7 +275,7 @@
   padding: 10px;
 }
 .footer .logo-footer img {
-  width: 80px;
+  width: 250px;
 }
 .footer .enlaces {
   display: flex;
@@ -299,10 +300,27 @@
   color: rgb(247, 178, 4);
 }
 .footer .enlaces .contacto-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 .footer .contacto-footer h3 {
+  text-align: center;
+  padding: 10px;
   color: #ff0000;
+}
+
+.footer .contacto-footer span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer .contacto-footer p, h4 {
+  color: #dddddd;
 }
 
 @media (max-width: 600px) {
@@ -578,6 +596,7 @@
 }
 .whatsapp {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 
@@ -589,6 +608,7 @@
 .whatsapp a {
   text-decoration: none;
   font-weight: bold;
+  color: #f0b002;
 }
 .whatsapp a:hover {
   color: rgb(46, 124, 15);

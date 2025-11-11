@@ -15,7 +15,6 @@ const NavBar = () => {
           <img src={logo} alt="logo" /> 
         </Link>
         <div className="logo-titulo">
-          <h1>Flash Arte en 3D</h1>
           <p>Hacemos realidad tus sueños ... <br />
           a la velocidad de la luz!!!</p>
         </div>
