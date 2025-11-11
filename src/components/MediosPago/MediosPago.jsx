@@ -1,6 +1,6 @@
 import prex from '../../assets/iconos/prex.png'
 import visa from '../../assets/iconos/visa.png'
-import mercadoPago from '../../assets/iconos/mercado-Pago.png'
+import mercadoPago from '../../assets/iconos/mercado-pago.png'
 
 const MediosPago = () => {
   return (
