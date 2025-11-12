@@ -1,17 +1,22 @@
 import Item from "../Item/Item";
+import { Link } from "react-router-dom";
 
 const ItemList = ({ products }) => {
   return (
     <div className="card-cont">
       {products.map(prod => (
-        <Item
-          key={prod.id}
-          id={prod.id}
-          img={prod.img}
-          title={prod.title}
-          price={prod.price}
-          description={prod.description}
-        />
+        <div key={prod.id} className="item">
+          <Item
+            id={prod.id}
+            img={prod.img}
+            title={prod.title}
+            price={prod.price}
+          />
+
+          <Link to={`/producto/${prod.id}`} className="btn-detalle">
+            Ver detalle
+          </Link>
+        </div>
       ))}
     </div>
   );

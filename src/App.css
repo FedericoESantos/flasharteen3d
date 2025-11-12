@@ -368,6 +368,98 @@
   padding: 15px;
 }
 
+/* === CARD DETALLE DE PRODUCTO === */
+.item-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20PX;
+  background-color: rgba(224, 146, 91, 0.185);
+  flex-direction: column;
+}
+
+.item-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff8f3;
+  border: 2px groove #c96f32;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  padding: 25px;
+  width: 320px;
+  text-align: center;
+}
+
+.item-detail img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.item-detail h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.item-detail p {
+  color: #555;
+}
+
+.item-detail .price {
+  font-weight: bold;
+  color: #c96f32;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* === CONTADOR === */
+.contador {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.contador button {
+  background-color: #c96f32;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contador button:hover {
+  background-color: #a34f1e;
+}
+
+/* === BOTONES DE ACCIÓN === */
+.item-detail .acciones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.item-detail .acciones button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.item-detail .acciones button:hover {
+  background-color: #555;
+}
+
 .itemlistcontainer .volver img {
   width: 45px;
 }
@@ -376,7 +468,7 @@
   filter: drop-shadow(2px 2px 8px black);
 }
 
-.itemlistcontainer .title-prod {
+.itemlistcontainer .title-prod{
   text-align: center;
   background-color: #333;
   width: 100%;
@@ -386,7 +478,7 @@
   border-radius: 15px;
 }
 
-.itemlistcontainer .card-cont {
+.itemlistcontainer .card-cont{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -413,6 +505,22 @@
 .itemlistcontainer .card-cont .item:hover {
   box-shadow: 0 6px 15px rgba(0,0,0,0.25);
   transform: translateY(-3px);
+}
+
+.itemlistcontainer .card-cont .item .btn-detalle {
+  margin-top: auto;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.itemlistcontainer .card-cont .item .btn-detalle:hover {
+  background-color: #555;
 }
 
 .itemlistcontainer .card-cont .item .item-desc {
@@ -679,4 +787,26 @@
 }
 .mediosPago .info .medios .titulo-pago {
   color: #dddddd;
+}
+
+
+/* === CARRITO === */
+
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+.cart .title {
+  background-color: #ee8d33;
+  width: 100%;
+  color: #ecebe6;
+  padding: 15px;
+  border-radius: 15px;
+}
+.cart .cart-info {
+  background-color: #55555559;
+  border-radius: 10px;
+}
+.cart .cart-info li {
+  padding: 10px;
 }

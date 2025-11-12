@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import { CartProvider } from './components/Context/CartContext';
+
+
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Greeting from './components/Greeting/Greeting'
@@ -9,6 +12,7 @@ import Error from './components/Error/Error'
 /*RUTAS*/
 import Category from './components/Category/Category'
 import ProductsId from './components/ItemListContainer/ItemListContainer'
+import ItemDetail from './components/ItemDetail/ItemDetail'
 import Empresa from './components/Empresa/Empresa'
 import Promociones from './components/Promociones/Promociones'
 import Contacto from './components/Contacto/Contacto'
@@ -18,55 +22,67 @@ import CategoryMultimedia from './components/CategoryMultimedia/CategoryMultimed
 import Imagenes from './components/Imagenes/Imagenes'
 import Video from './components/Videos/Videos'
 
+/*CARRITO*/
+import Cart from './components/Cart/Cart';
+
 function App() {
 
   return (
-  <div className='color-fondo'>
+    <div className='color-fondo'>
 
-    <BrowserRouter>
-    
-      <NavBar />
+      <CartProvider>
 
-      <div className="content">
+        <BrowserRouter>
 
-        <Routes>
-          {/* HOME */}
-          <Route 
-              path='/' 
-              element={
-                <>
-                  <Greeting greeting='Bienvenidos al rincón del arte en 3D.' />
-                  <Home />
-                </>
-              } 
-            />
+          <NavBar />
 
-          {/* PÁGINAS */}
-          <Route path='/productos' element={ <Category /> } />
-          <Route path='/productos/:categoryId' element={<ProductsId />} />
-          <Route path='/galeria' element={ <CategoryMultimedia /> } />
-          {/* IMAGENES */}
-          <Route path="/galeria/imagenes" element={<Imagenes />} />
+          <div className="content">
 
-          {/* VIDEOS */}
-          <Route path="/galeria/videos" element={<Video />} />
+            <Routes>
+              {/* HOME */}
+              <Route
+                path='/'
+                element={
+                  <>
+                    <Greeting greeting='Bienvenidos al rincón del arte en 3D.' />
+                    <Home />
+                  </>
+                }
+              />
 
-          <Route path='/empresa' element={ <Empresa /> } />
-          <Route path='/promociones' element={ <Promociones /> } />
-          <Route path='/contacto' element={ <Contacto /> } />
-          <Route path='/mediosPago' element={ <MediosPago /> } />
+              {/* PÁGINAS */}
+              <Route path='/productos' element={<Category />} />
+              <Route path='/productos/:categoryId' element={<ProductsId />} />
+              <Route path="/producto/:productId" element={<ItemDetail />} />
 
-          {/* ERROR */}
-          <Route path='*' element={ <Error /> } />
+              {/* GALERIA DE IMAGENES Y VIDEO */}
+              <Route path='/galeria' element={<CategoryMultimedia />} />
+              {/* IMAGENES */}
+              <Route path="/galeria/imagenes" element={<Imagenes />} />
 
-        </Routes>
+              {/* VIDEOS */}
+              <Route path="/galeria/videos" element={<Video />} />
 
-      </div>
-      <Footer />
+              <Route path='/empresa' element={<Empresa />} />
+              <Route path='/promociones' element={<Promociones />} />
+              <Route path='/contacto' element={<Contacto />} />
+              <Route path='/mediosPago' element={<MediosPago />} />
 
-    </BrowserRouter>
+              {/* CARRITO */}
+              <Route path="/cart" element={<Cart />} />
 
-  </div>
+              {/* ERROR */}
+              <Route path='*' element={<Error />} />
+
+            </Routes>
+
+          </div>
+          <Footer />
+
+        </BrowserRouter>
+      </CartProvider>
+
+    </div>
   )
 }
 

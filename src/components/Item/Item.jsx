@@ -2,7 +2,7 @@ import React from 'react'
 
 const Item = ({id, img, title, price, description, children}) => {
     return (
-    <div className='item'>
+    <div>
         <img src={img} alt={title}  className='item-img'/>
         <h2 className='item-title'>{title}</h2 >
         <h4>ID: {id}</h4>
