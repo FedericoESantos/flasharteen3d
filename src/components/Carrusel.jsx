@@ -1,10 +1,16 @@
-import React, { useEffect, useState } from 'react'
-import logo from '../assets/images/logo.png'
-import carrito from '../assets/images/carrito.png'
+import { useEffect, useState } from 'react'
+
+import logo from '../assets/images/carrusel/logo.png'
+import img1 from '../assets/images/carrusel/1.png'
+import img2 from '../assets/images/carrusel/2.png'
+import img3 from '../assets/images/carrusel/3.png'
+import img4 from '../assets/images/carrusel/4.png'
+import img5 from '../assets/images/carrusel/5.png'
+import img6 from '../assets/images/carrusel/6.png'
 
 const Carrusel = () => {
 
-  const images = [logo, carrito,logo, carrito,logo];
+  const images = [logo, img1, img2, img3,img4,img5,img6];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
