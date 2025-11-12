@@ -1,7 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useCart } from "../Context/CartContext";
-import "./Checkout.css";
 
 const Checkout = () => {
   const { cart, vaciarCarrito } = useCart();
