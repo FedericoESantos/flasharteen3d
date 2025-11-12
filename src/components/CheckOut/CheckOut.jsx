@@ -48,7 +48,7 @@ const Checkout = () => {
       )
       .then(() => {
         console.log("Correo enviado ✅");
-        alert("¡Correo enviado con éxito! Revisa tu bandeja de entrada ✉️");
+        alert("¡Correo enviado con éxito! En breve nos pondremos en contacto contigo. Revisa tu bandeja de entrada ✉️");
         vaciarCarrito();
         setFormData({ nombre: "", email: "", telefono: "" });
       })
