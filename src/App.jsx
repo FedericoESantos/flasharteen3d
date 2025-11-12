@@ -24,6 +24,7 @@ import Video from './components/Videos/Videos'
 
 /*CARRITO*/
 import Cart from './components/Cart/Cart';
+import CheckOut from "./components/CheckOut/CheckOut";
 import Loader from './components/Loader/Loader';
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
 
               {/* CARRITO */}
               <Route path="/cart" element={<Cart />} />
+              <Route path="/checkout" element={<CheckOut />} />
 
               {/* ERROR */}
               <Route path='*' element={<Error />} />

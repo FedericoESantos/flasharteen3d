@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCart } from "../Context/CartContext";
-import flechaRoja from "../../assets/iconos/borrar.png"; 
+import flechaRoja from "../../assets/iconos/borrar.png";
 
 const Cart = () => {
   const { cart, totalProductos, eliminarDelCarrito } = useCart();
@@ -101,20 +101,21 @@ const Cart = () => {
           </button>
         </Link>
 
-        <button
-          onClick={finalizarCompra}
-          style={{
-            backgroundColor: "#ff8c42",
-            color: "#fff",
-            border: "none",
-            padding: "10px 20px",
-            borderRadius: "8px",
-            cursor: "pointer",
-            fontWeight: "bold",
-          }}
-        >
-          Finalizar compra
-        </button>
+        <Link to="/checkout">
+          <button
+            style={{
+              backgroundColor: "#ff8c42",
+              color: "#fff",
+              border: "none",
+              padding: "10px 20px",
+              borderRadius: "8px",
+              cursor: "pointer",
+              fontWeight: "bold",
+            }}
+          >
+            Finalizar compra
+          </button>
+        </Link>
       </div>
     </div>
   );
