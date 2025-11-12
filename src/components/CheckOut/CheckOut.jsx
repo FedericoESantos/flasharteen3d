@@ -1,19 +1,15 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { useCart } from "../Context/CartContext";
-import emailjs from "emailjs-com";
 
-const CheckOut = () => {
-  const navigate = useNavigate();
-  const { cart, totalProductos, vaciarCarrito } = useCart();
+const Checkout = () => {
+  const { cart, vaciarCarrito } = useCart();
 
   const [formData, setFormData] = useState({
     nombre: "",
     email: "",
     telefono: "",
   });
-
-  const [orderId, setOrderId] = useState(null);
 
   const handleChange = (e) => {
     setFormData({
@@ -22,17 +18,11 @@ const CheckOut = () => {
     });
   };
 
-  const generarCodigo = () => {
-    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    const numeros = "0123456789";
-    let codigo = "";
-    for (let i = 0; i < 3; i++) codigo += letras[Math.floor(Math.random() * letras.length)];
-    for (let i = 0; i < 3; i++) codigo += numeros[Math.floor(Math.random() * numeros.length)];
-    for (let i = 0; i < 3; i++) codigo += letras[Math.floor(Math.random() * letras.length)];
-    return codigo;
-  };
+  // 👉 Envío del correo
+  const enviarEmail = (e) => {
+    e.preventDefault();
 
-  const enviarEmail = (formData, cart, codigo) => {
+    const codigo = Math.random().toString(36).substring(2, 8).toUpperCase(); // Código único
     const pedido = cart.map(item => `${item.title} (x${item.cantidad})`).join(", ");
 
     const templateParams = {
@@ -45,15 +35,16 @@ const CheckOut = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,      // 🔹 tu Service ID de EmailJS
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,     // 🔹 tu Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,   // ✅ Variables de entorno Vite
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         templateParams,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY     // 🔹 tu Public Key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         console.log("Correo enviado ✅");
         alert("¡Correo enviado con éxito! Revisa tu bandeja de entrada ✉️");
-        vaciarCarrito(); // Vacía el carrito solo si el correo se envió correctamente
+        vaciarCarrito(); // Limpia el carrito solo si se envió el mail
+        setFormData({ nombre: "", email: "", telefono: "" });
       })
       .catch((err) => {
         console.error("Error al enviar correo ❌", err);
@@ -61,51 +52,11 @@ const CheckOut = () => {
       });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const codigo = generarCodigo();
-    setOrderId(codigo);
-    enviarEmail(formData, cart, codigo);
-  };
-
-  if (orderId) {
-    return (
-      <div style={{ textAlign: "center", marginTop: "60px" }}>
-        <h2>¡Gracias por tu compra, {formData.nombre}! 🎉</h2>
-        <p>Tu código de validación es:</p>
-        <h3 style={{ color: "green", fontSize: "1.5rem" }}>{orderId}</h3>
-        <button
-          onClick={() => navigate("/")}
-          style={{
-            marginTop: "20px",
-            backgroundColor: "#333",
-            color: "#fff",
-            padding: "10px 20px",
-            border: "none",
-            borderRadius: "8px",
-            cursor: "pointer",
-          }}
-        >
-          Volver al inicio
-        </button>
-      </div>
-    );
-  }
-
   return (
-    <div style={{ maxWidth: "400px", margin: "60px auto", textAlign: "center" }}>
-      <h2>Finalizar compra 🧾</h2>
-      <p>Tenés {totalProductos} productos en el carrito.</p>
+    <div className="checkout-container">
+      <h2>Finalizar compra</h2>
 
-      <form
-        onSubmit={handleSubmit}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px",
-          marginTop: "20px",
-        }}
-      >
+      <form onSubmit={enviarEmail} className="checkout-form">
         <input
           type="text"
           name="nombre"
@@ -113,7 +64,6 @@ const CheckOut = () => {
           value={formData.nombre}
           onChange={handleChange}
           required
-          style={{ padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
         />
         <input
           type="email"
@@ -122,7 +72,6 @@ const CheckOut = () => {
           value={formData.email}
           onChange={handleChange}
           required
-          style={{ padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
         />
         <input
           type="tel"
@@ -130,22 +79,9 @@ const CheckOut = () => {
           placeholder="Teléfono"
           value={formData.telefono}
           onChange={handleChange}
-          required
-          style={{ padding: "8px", borderRadius: "5px", border: "1px solid #ccc" }}
         />
-        <button
-          type="submit"
-          style={{
-            marginTop: "10px",
-            backgroundColor: "#ff8c42",
-            color: "#fff",
-            border: "none",
-            padding: "10px 20px",
-            borderRadius: "8px",
-            cursor: "pointer",
-            fontWeight: "bold",
-          }}
-        >
+
+        <button type="submit" disabled={cart.length === 0}>
           Enviar pedido
         </button>
       </form>
@@ -153,4 +89,4 @@ const CheckOut = () => {
   );
 };
 
-export default CheckOut;
+export default Checkout;

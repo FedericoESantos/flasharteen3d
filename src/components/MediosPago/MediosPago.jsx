@@ -16,21 +16,23 @@ const MediosPago = () => {
             <br />
             <h3 className='titulo-pago'>Prex (Uruguay)</h3>
             <p className='titulo-pago'><strong>Nro. Cuenta</strong></p>
-            <p className='titulo-pago'>555555555</p>
+            <p className='titulo-pago'>1887884</p>
           </div>
 
           <div className="mercadoPago">
             <img src={mercadoPago} alt="Mercado-Pago" />
             <h3 className='titulo-pago'>Mercado Pago (Uruguay)</h3>
             <p className='titulo-pago'><strong>Nro. Cuenta</strong></p>
-            <p className='titulo-pago'>555555555</p>
+            <p className='titulo-pago'>1001931384992</p>
           </div>
 
           <div className="bcoProvincia">
             <img src={visa} alt="Visa-Bco-Prov" />
             <h3 className='titulo-pago'>Bco. Provincia (Argentina)</h3>
             <p className='titulo-pago'><strong>Nro. Cuenta</strong></p>
-            <p className='titulo-pago'>555555555</p>
+            <p className='titulo-pago'>0140114703205052645107</p>
+            <p className='titulo-pago'><strong>ALIAS:</strong></p>
+            <p className='titulo-pago'>SANTO.ALCE.BROMA</p>
           </div>
 
         </div>
