@@ -7,10 +7,11 @@ import img3 from '../assets/images/carrusel/3.png'
 import img4 from '../assets/images/carrusel/4.png'
 import img5 from '../assets/images/carrusel/5.png'
 import img6 from '../assets/images/carrusel/6.png'
+import img7 from '../assets/images/carrusel/7.png'
 
 const Carrusel = () => {
 
-  const images = [logo, img1, img2, img3,img4,img5,img6];
+  const images = [logo, img1, img2, img3,img4,img5,img6,img7];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
