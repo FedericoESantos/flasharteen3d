@@ -824,3 +824,90 @@
 .loader img {
   width: 40px;
 }
+
+/* === CHECKOUT === */
+
+.checkout-container {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 40px 35px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.checkout-container:hover {
+  transform: translateY(-3px);
+}
+
+.checkout-container h2 {
+  color: #222;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.checkout-form input {
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.checkout-form input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 8px rgba(0, 119, 255, 0.2);
+}
+
+.checkout-form input::placeholder {
+  color: #999;
+}
+
+.checkout-form button {
+  margin-top: 10px;
+  background: linear-gradient(135deg, #0077ff, #00c6ff);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkout-form button:hover {
+  background: linear-gradient(135deg, #005fcc, #00aaff);
+  transform: scale(1.02);
+}
+
+.checkout-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 480px) {
+  .checkout-container {
+    padding: 25px 20px;
+  }
+
+  .checkout-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .checkout-form input,
+  .checkout-form button {
+    font-size: 0.95rem;
+  }
+}
