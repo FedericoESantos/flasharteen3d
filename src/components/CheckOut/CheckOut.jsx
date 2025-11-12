@@ -27,7 +27,9 @@ const Checkout = () => {
     }
 
     const codigo = Math.random().toString(36).substring(2, 8).toUpperCase();
-    const pedido = cart.map(item => `${item.title} (x${item.cantidad})`).join(", ");
+    const pedido = cart
+      .map(item => `#${item.id} - ${item.title} (x${item.cantidad})`)
+      .join(", ");
     const total = cart.reduce((acc, item) => acc + item.price * item.cantidad, 0); // 👈 agregado
 
     const templateParams = {
