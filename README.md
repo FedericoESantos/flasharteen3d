@@ -1,4 +1,4 @@
-# 🧱 Impresiones 3D - E-commerce React
+# 🧱 Flash Arte en 3D - E-commerce React
 
 Bienvenido al **Flash Arte en 3D**, un emprendimiento dedicado a la creación y venta de productos personalizados impresos en 3D.  
 Este sitio permite explorar modelos, ver imágenes y videos, aprovechar promociones y realizar compras en línea con un carrito dinámico y envío automático de pedidos por correo electrónico.
