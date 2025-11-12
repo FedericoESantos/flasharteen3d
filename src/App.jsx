@@ -24,6 +24,7 @@ import Video from './components/Videos/Videos'
 
 /*CARRITO*/
 import Cart from './components/Cart/Cart';
+import Loader from './components/Loader/Loader';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <BrowserRouter>
 
           <NavBar />
+          <Loader />
 
           <div className="content">
 

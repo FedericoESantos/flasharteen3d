@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { useCart } from "../Context/CartContext";
+import flechaRoja from "../../assets/iconos/borrar.png"; 
 
 const Cart = () => {
-  const { cart, totalProductos } = useCart();
+  const { cart, totalProductos, eliminarDelCarrito } = useCart();
 
-  // Calcular el total acumulado
   const totalCompra = cart.reduce((acc, item) => acc + item.price * item.cantidad, 0);
 
   if (cart.length === 0) {
@@ -46,14 +46,37 @@ const Cart = () => {
                 borderRadius: "8px",
               }}
             />
+
             <div style={{ flexGrow: 1 }}>
               <p style={{ margin: 0, fontWeight: "bold" }}>{item.title}</p>
               <p style={{ margin: 0 }}>Cantidad: {item.cantidad}</p>
               <p style={{ margin: 0 }}>Precio unitario: ${item.price}</p>
             </div>
+
             <p style={{ fontWeight: "bold" }}>
               Subtotal: ${item.price * item.cantidad}
             </p>
+
+            {/* 🔻 Botón eliminar */}
+            <button
+              onClick={() => eliminarDelCarrito(item.id)}
+              style={{
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+              }}
+              title="Eliminar producto"
+            >
+              <img
+                src={flechaRoja}
+                alt="Eliminar"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  transform: "rotate(180deg)",
+                }}
+              />
+            </button>
           </li>
         ))}
       </ul>
@@ -61,7 +84,6 @@ const Cart = () => {
       <h3 style={{ textAlign: "right" }}>Total: ${totalCompra}</h3>
 
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        {/* 🔹 Botón para ir a productos */}
         <Link to="/productos">
           <button
             style={{
@@ -79,7 +101,6 @@ const Cart = () => {
           </button>
         </Link>
 
-        {/* 🔸 Botón para finalizar compra */}
         <button
           onClick={finalizarCompra}
           style={{

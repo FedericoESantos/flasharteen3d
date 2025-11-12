@@ -24,10 +24,14 @@ export const CartProvider = ({ children }) => {
     });
   };
 
+  const eliminarDelCarrito = (id) => {
+    setCart(prevCart => prevCart.filter(item => item.id !== id));
+  };
+
   const totalProductos = cart.reduce((acc, item) => acc + item.cantidad, 0);
 
   return (
-    <CartContext.Provider value={{ cart, agregarAlCarrito, totalProductos }}>
+    <CartContext.Provider value={{ cart, agregarAlCarrito, eliminarDelCarrito, totalProductos }}>
       {children}
     </CartContext.Provider>
   );

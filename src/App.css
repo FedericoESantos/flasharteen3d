@@ -810,3 +810,17 @@
 .cart .cart-info li {
   padding: 10px;
 }
+
+/* === LOADER === */
+.loader {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 15px;
+  width: 100%;
+  background-color: aliceblue;
+}
+.loader img {
+  width: 40px;
+}
