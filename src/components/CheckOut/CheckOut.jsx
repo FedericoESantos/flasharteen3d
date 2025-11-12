@@ -30,6 +30,7 @@ const Checkout = () => {
       email: formData.email,
       telefono: formData.telefono,
       pedido,
+      total: total.toFixed(2), // 👈 agrega el total con 2 decimales
       codigo,
     };
 
