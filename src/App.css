@@ -911,3 +911,66 @@
     font-size: 0.95rem;
   }
 }
+
+
+/*--------------------- NOVEDADES ------------------------ */
+.novedades {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: #00aaff93;
+}
+.novedades .titulo {
+  width: 100%;
+  background-color: #0b3c55;
+  color: #ffffff;
+}
+.novedades h3 {
+  padding-top: 15px;
+}
+.novedades .cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.novedades .cards .card {
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  border-style: groove;
+  box-shadow: 2px 2px 6px black;
+  background-color: #fdfdfde8;
+  overflow: hidden;
+}
+.novedades .cards .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  width: 150px;
+}
+.novedades .cards .card span {
+  padding: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .novedades .cards {
+    justify-content: center;
+  }
+
+  .novedades .cards .card {
+    width: calc(50% - 15px); /* dos por fila, restando el gap */
+  }
+
+  .novedades .cards .card img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
