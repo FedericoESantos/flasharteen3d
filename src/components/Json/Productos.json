@@ -590,5 +590,29 @@
         "img": "/productos/74.jpg",
         "price": 700,
         "category": "Repisas"
+    },
+    {
+        "id": 75,
+        "title": "Gancho para anteojos",
+        "description": "Gancho para enganchar los anteojos en el auto",
+        "img": "/productos/75.jfif",
+        "price": 600,
+        "category": "Utilidades"
+    },
+    {
+        "id": 76,
+        "title": "Estuche 2",
+        "description": "Estuche para anteojos con apertura corrediza",
+        "img": "/productos/76.jpg",
+        "price": 600,
+        "category": "Utilidades"
+    },
+    {
+        "id": 77,
+        "title": "Estuche",
+        "description": "Estuche imantado para anteojos",
+        "img": "/productos/77.jfif",
+        "price": 700,
+        "category": "Utilidades"
     }
 ]
